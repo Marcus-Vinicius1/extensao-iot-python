@@ -1,11 +1,11 @@
 # extensao-iot-python
-Controle de Ventilador com Sensor de Temperatura
+  Controle de Ventilador com Sensor de Temperatura
 Este projeto utiliza um sensor de temperatura DHT11 e um Arduino para controlar um ventilador com base na temperatura lida. O objetivo é manter um ambiente confortável, acionando o ventilador quando a temperatura ultrapassar um limite pré-determinado.
 
-Descrição do Projeto
+  Descrição do Projeto
 O projeto consiste em um sistema que monitora a temperatura ambiente e aciona um ventilador quando a temperatura ultrapassa um valor específico. O sistema utiliza um sensor DHT11 para ler a temperatura e um Arduino para processar os dados e controlar o ventilador.
 
-Componentes Utilizados
+  Componentes Utilizados
 Arduino Uno: Microcontrolador para ler os dados do sensor e controlar o ventilador.
 Sensor DHT11: Sensor de temperatura e umidade.
 Ventilador: Dispositivo que será controlado pelo Arduino.
@@ -16,10 +16,10 @@ Diagrama do Circuito
 O diagrama do circuito está disponível em /docs/circuit_diagram.png. Este diagrama ilustra como conectar o sensor DHT11 e o ventilador ao Arduino.
 
 
-Código-Fonte
+  Código-Fonte
 O código-fonte está localizado em /src/main.ino. Este arquivo contém o código necessário para ler os dados do sensor DHT11 e controlar o ventilador.
 
-Exemplo de Código
+  Exemplo de Código
 cpp
 Copiar código
 #include <DHT.h>
@@ -51,8 +51,8 @@ void loop() {
 
   delay(2000); // Espera 2 segundos antes de ler novamente
 }
-Configuração do Projeto
-Montagem do Circuito:
+  Configuração do Projeto
+    Montagem do Circuito:
 
 Conecte o pino VCC do DHT11 ao pino 5V do Arduino.
 Conecte o pino GND do DHT11 ao GND do Arduino.
