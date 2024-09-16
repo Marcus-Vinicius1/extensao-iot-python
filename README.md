@@ -13,7 +13,7 @@ Transistor NPN (como o 2N2222): Para controlar o ventilador.
 Resistor de 10kΩ: Para o sensor DHT11.
 Cabos de Conexão: Para ligar os componentes.
 Diagrama do Circuito
-O diagrama do circuito está disponível em /docs/circuit_diagram.png. Este diagrama ilustra como conectar o sensor DHT11 e o ventilador ao Arduino.
+O diagrama do circuito está disponível em /docs/circuit_diagram.png.
 
 
   Código-Fonte
